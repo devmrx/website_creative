@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".video").fitVids();
+  });
+</script>
+
+
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('.menu ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  макс масштаб 1.0 и запрещает изменять масштаб -->
+
+<title>Creative+</title>
+</head>
+
+<body>
+<div class="karkas">
+	<div class="header-main">
+		<div class="header-top">
+			<div class="header">
+				<a class="logo" href="/">Creative<sup>+</sup></a>
+				<div class="menu">
+					<ul>
+						<li><a href="#">Articles</a></li>
+						<li><a href="#">Toutorials</a></li>
+						<li><a href="#">design</a></li>
+						<li><a class="now" href="#">web design</a></li>
+						<li><a href="#">other</a></li>
+						<li><a href="#">cotnact</a></li>
+					</ul>
+					<a href="#" id="pull" >Меню</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-main">
+		<div class="content">
+			<div class="post-main">
+				<div class="post-img">
+					<img src="images/post-img1.jpg" />
+					<div class="post-img-social">
+						<a href="#"><img src="images/post-facebook.png" /></a>
+						<a href="#"><img src="images/post-twitter.png" /></a>
+					</div>
+				</div>
+				<div class="post-content">
+					<div class="post-str"></div>
+					<div class="post-head">
+						<h1><a href="#">Roundup: 20 web designs with large backgrounds</a></h1>
+						<p>19th April 2012</p>
+						<h2>Sub heading to go here</h2>
+					</div>
+					<div class="post">
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						Vestibulum scelerisque dignissim massa, sed gravida nisi sollicitudin vel. Sed nec erat feugiat orci
+						hendrerit ultricies et sit amet lectus. 
+</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="post-main">
+				<div class="post-img">
+					<img src="images/post-img2.jpg" />
+					<div class="post-img-social">
+						<a href="#"><img src="images/post-facebook.png" /></a>
+						<a href="#"><img src="images/post-twitter.png" /></a>
+					</div>
+				</div>
+				<div class="post-content">
+					<div class="post-str"></div>
+					<div class="post-head">
+						<h1><a href="#">Roundup: 20 web designs with large backgrounds</a></h1>
+						<p>19th April 2012</p>
+						<h2>Sub heading to go here</h2>
+					</div>
+					<div class="post">
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						Vestibulum scelerisque dignissim massa, sed gravida nisi sollicitudin vel. Sed nec erat feugiat orci
+						hendrerit ultricies et sit amet lectus. 
+</p>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PuQt9N4Dsok" frameborder="0" allowfullscreen></iframe>
+</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="post-main">
+				<div class="post-img">
+					<img src="images/post-img3.jpg" />
+					<div class="post-img-social">
+						<a href="#"><img src="images/post-facebook.png" /></a>
+						<a href="#"><img src="images/post-twitter.png" /></a>
+					</div>
+				</div>
+				<div class="post-content">
+					<div class="post-str"></div>
+					<div class="post-head">
+						<h1><a href="#">Roundup: 20 web designs with large backgrounds</a></h1>
+						<p>19th April 2012</p>
+						<h2>Sub heading to go here</h2>
+					</div>
+					<div class="post">
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						Vestibulum scelerisque dignissim massa, sed gravida nisi sollicitudin vel. Sed nec erat feugiat orci
+						hendrerit ultricies et sit amet lectus. 
+</p>
+		<div class="video">
+			<iframe src="https://player.vimeo.com/video/98417189" width="500" height="281" frameborder="0" webkitallowfullscreen 
+			mozallowfullscreen allowfullscreen></iframe> 	
+			</div>
+					</div>
+				</div>
+			</div>
+			<ul class="pager">
+				<li><a href="#" class="page-now">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+			</ul>
+			
+		</div>
+		<div class="sidebar-main">
+			<div class="sidebar">
+				<div class="side-vidget">
+					<h2>Blog Categories</h2>
+					<ul>
+						<li><a href="#">Blog Category 1 (5)</a></li>
+						<li><a href="#">Blog Category 2 (3)</a></li>
+						<li><a href="#">Blog Category 3 (8)</a></li>
+						<li><a href="#">Blog Category 4 (12)</a></li>
+						<li><a href="#">Blog Category 5 (7)</a></li>
+					</ul>
+					
+				</div>
+				<div class="side-vidget">
+					<h2>Archives</h2>
+					<ul>
+						<li><a href="#">January 2015 (23)</a></li>
+						<li><a href="#">December 2014 (34)</a></li>
+						<li><a href="#">November 2014 (21)</a></li>
+						<li><a href="#">October 2014 (11)</a></li>
+						<li><a href="#">September 2014 (44)</a></li>
+						<li><a href="#">August 2014 (4)</a></li>
+					</ul>
+					
+				</div>
+				<div class="side-vidget">
+					<h2>Recent Posts</h2>
+					<div class="recent-post">
+						<p><a href="#">Ut eget metus nibh, nec scelerisque sem. Nulla dui purus, pellentesque
+						sit amet rutrum vitae</a><span>14th Febuary 2015</span></p>
+						<p><a href="#">Fusce augue arcu, volutpat eu facilisis suscipit, venenatis vehicula diam. </a><span>12th Febuary 2015</span></p>
+						<p><a href="#">Ut eget metus nibh, nec scelerisque sem. Nulla dui purus, pellentesque
+						sit amet rutrum vitae</a><span>14th Febuary 2015</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="side-banner">
+				<a href="#"><img src="images/side-banner.jpg" /></a>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer-main">
+		<div class="footer">
+			<div class="footer-right">
+				<a href="#"><img src="images/post-facebook.png" /></a>
+				<a href="#"><img src="images/post-twitter.png" /></a>
+				<a href="#"><img src="images/rss.png" /></a>
+			</div>
+			<div class="footer-left">
+				<p>Quisque turpis lorem, vehicula eget rhoncus vel, ultricies ac mauris. Morbi lectus velit,
+				tincidunt congue pharetra eu, varius nec libero. Vivamus justo risus, dignissim ac vestibulum eget,
+				egestas rutrum magna. Etiam malesuada nisi et nisl volutpat tristique. </p>
+				<p class="copy">Copyright 2012 Footer here</p>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
